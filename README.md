@@ -9,7 +9,7 @@ Esta aplicación JavaFX permite visualizar los resultados de los conductores y c
 - Visualización de resultados en un `TableView` con las siguientes columnas:
 - Para conductores: `DriverName`, `Wins`, `TotalPoints`, `Rank`.
 ## EJECUCION
-![Captura 1](menu.png).
+![Captura 1](Menu1.png).
 
 ![Captura 2](conductores.png).
 
