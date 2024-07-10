@@ -1,10 +1,10 @@
-# FORMULA 1 DRIVERS 
+# DRIVERS FORMULA 1
 
 Esta aplicación JavaFX permite visualizar los resultados de los conductores y constructores de Formula 1 en dos `TableView` distintos, basados en los datos obtenidos de una base de datos phpMyAdmin. Los usuarios pueden seleccionar un año específico desde un `ComboBox` y los resultados correspondientes se mostrarán en la tabla correspondiente.
 
 ![Captura 2](conductores.png).
 
-## Características
+## CARACTERISTICA
 
 - Selección entre visualizar resultados de conductores o de constructores.
 - Selección de año mediante un `ComboBox`.
@@ -13,12 +13,12 @@ Esta aplicación JavaFX permite visualizar los resultados de los conductores y c
 ## EJECUCION
 ![Captura 1](Menu1.png).
 
-## Requisitos
+## SE UTILIZO
 - Java .
 - MySQL.
 - Librerías de JavaFX.
 
-## Configuración de la Base de Datos
+## BASE DE DATOS
 
 1. Instala MySql y crea una base de datos en phpMyAdmin  llamada `Proyecto1`.
 2. Asegúrate de tener las siguientes tablas y datos en tu base de datos:
@@ -26,14 +26,14 @@ Esta aplicación JavaFX permite visualizar los resultados de los conductores y c
     - `races`
     - `results`
     - `seasons`
-## Instalación
+## CONEXION CON LA BASE DE DATOS
 Configura las credenciales de la base de datos en las clases `DriverResultRepository`.
 
     String url="jdbc:mysql://127.0.0.1:3306/proyecto1";
     String usuario="ashley";
     String contrasenia="Ashley/523_5";
     ``` 
-## Estructura del Proyecto
+## ESTRUCTURA
 
 - `Main.java`: Clase principal que inicia la aplicación y muestra la ventana principal para seleccionar entre conductores y constructores.
 - `DriverResultsWindow.java`: Clase que crea la ventana con el `TableView` para mostrar los resultados de los conductores.
