@@ -1,4 +1,4 @@
-# Formula 1 Driver-Contructor Results
+# FORMULA 1 DRIVERS 
 
 Esta aplicación JavaFX permite visualizar los resultados de los conductores y constructores de Formula 1 en dos `TableView` distintos, basados en los datos obtenidos de una base de datos PostgreSQL. Los usuarios pueden seleccionar un año específico desde un `ComboBox` y los resultados correspondientes se mostrarán en la tabla correspondiente.
 
