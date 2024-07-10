@@ -10,6 +10,7 @@ Esta aplicación JavaFX permite visualizar los resultados de los conductores y c
 - Para conductores: `DriverName`, `Wins`, `TotalPoints`, `Rank`.
 ## EJECUCION
 ![Captura 1](menu.png).
+1[Captura 2](conductores.png).
 
 ## Requisitos
 - Java .
