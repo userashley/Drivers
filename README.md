@@ -8,6 +8,8 @@ Esta aplicación JavaFX permite visualizar los resultados de los conductores y c
 - Selección de año mediante un `ComboBox`.
 - Visualización de resultados en un `TableView` con las siguientes columnas:
 - Para conductores: `DriverName`, `Wins`, `TotalPoints`, `Rank`.
+## EJECUCION
+![Captura 1](menu.png).
 
 ## Requisitos
 - Java .
